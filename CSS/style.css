@@ -70,10 +70,6 @@ h3 {
     transform: rotateY(-180deg);
 }
 
-.text-three {
-    transform: skew(180deg);
-}
-
 .card:hover .text {
     transform: rotate(0);
     opacity: 1;
@@ -86,10 +82,5 @@ h3 {
 
 .card:hover .two {
     transform: rotateY(-180deg);
-    opacity: 0;
-}
-
-.card:hover .three {
-    transform: skew(180deg);
     opacity: 0;
 }
